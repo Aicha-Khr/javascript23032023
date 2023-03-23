@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercice</title>
+    <link rel="stylesheet" href="05-form-exo.css">
+</head>
+<body>
+    
+    <form>
+        <input type="text" placeholder="Jon Doe" id="userName">
+        <input type="text" placeholder="JonDoe1976" id="userPseudo">        
+        <input type="email" placeholder="jDoe@gmail.com" id="userMail">
+        
+        <input type="color" id="userTextColor" value="#ffffff">
+        <input type="color" id="userBackgroundColor" value="#000000">
+        <input type="range" id="userFontSize" min="10" max="30">
+        
+        <select id="userFontFamily">
+            <option value="Delicious Handrawn">Delicious Handrawn</option>
+            <option value="Lobster">Lobster</option>
+            <option value="Teko">Teko</option>
+        </select>
+
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <section id="userInfos">
+        <p>Nom : </p>
+        <p>Pseudo : </p>
+        <p>Mail : </p>
+    </section>
+
+
+    <script src="05-form-exo.js"></script>
+</body>
+</html>
